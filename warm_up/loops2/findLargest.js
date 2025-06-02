@@ -1,15 +1,13 @@
-function findLargest(array) { 
-    let largest = -1; 
+function findLargest(array) {
+    let largest = -Infinity;  //largest number : assign as the smallest to get the first number; 
     for(let i = 0;i<array.length;i++) {
-        if(arr[i] > largest){ 
-            largest = arr[i]; 
-            console.log("INside the loop" , "The largest is : " , largest);
+        if(array[i] > largest) {
+            largest = array[i]; 
         }
     }
-    return largest;
+    return largest; 
 }
 
-
-let arr = [5,0,10,8,17,1]
-
-console.log(findLargest(arr));
+let array = [10,18 , 1, -1 , 12 , 34]
+let large = findLargest(array) ;
+console.log(`The largest number in the array is : ${large}`);
