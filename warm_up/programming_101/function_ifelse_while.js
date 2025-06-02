@@ -33,3 +33,21 @@ function isEligibleForVoting(age) {
 
 console.log(isEligibleForVoting(-14))
 console.log(isEligibleForVoting(20))
+
+
+console.log("------\n")
+
+// odd or even number 
+function oddEvenFinder(number) {
+    const rem = number % 2 == 0 ; 
+    if(rem) return true ; 
+    else return false ; 
+}
+
+
+const isEven = oddEvenFinder(111);
+if(isEven) {
+    console.log("The number is even!")
+} else {
+    console.log("The number is odd!")
+}
