@@ -7,4 +7,4 @@
     - Functions , Loops
     - Data types 
     - Basics of Array 
-    - Basics Questions on Array 
+    - Basics Questions on Array
