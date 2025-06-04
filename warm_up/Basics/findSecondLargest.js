@@ -1,20 +1,23 @@
-const findSecondLargestNumber = arr => {
-    let largestNumber = -Infinity; 
-    let secondLargest = -Infinity; 
+function findSecondLargestNumber(arr) {
+    if (arr.length < 2) {
+        return -1;
+    }
 
-    for(let i = 0;i<arr.length;i+=1) {
-        if(arr[i] > largestNumber) {
-            secondLargest = largestNumber ; 
-            largestNumber = arr[i] ; 
-        } else if(arr[i]!=largestNumber && secondLargest < arr[i]) {
-            secondLargest = arr[i] ; 
+    let largest = -Infinity;
+    let second = -Infinity;
+    for (let i = 0; i < arr.length; i += 1) {
+        if (arr[i] > largest) {
+            second = largest;
+            largest = arr[i];
+        } else if (arr[i] > second && arr[i] !== largest) {
+            second = arr[i];
         }
     }
-    return secondLargest; 
+
+    // handle the case where the largest number is the only number in the array
+    if (second === -Infinity) {
+        return -1;
+    }
+
+    return second;
 }
-
-let arr1 = [5,11,23 , 1, ,3 ,9 ] ;
-let arr2= [10,20,30,33]
-
-console.log(findSecondLargestNumber(arr1))
-console.log(findSecondLargestNumber(arr2))
