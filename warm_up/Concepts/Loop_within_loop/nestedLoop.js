@@ -1,5 +1,9 @@
 for(let i = 0;i<3;i+=1) {
-    for(let j = 0;j<i;j+=1) {
-        console.log(i,j);
+    console.log(`Iteration ${i+1} starts : `)
+    console.log(`i -> ${i}`)
+    for(let j = 0;j<3;j+=1) {
+        
+        console.log("\t",`j => ${j}`)
     }
+    console.log("\n")
 }
