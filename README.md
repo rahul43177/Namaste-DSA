@@ -8,3 +8,9 @@
     - Data types 
     - Basics of Array 
     - Basics Questions on Array
+    - Loop within a Loop
+2. Star Patterns
+    - Trianlge
+    - Numbered Triangle
+    - Triangle with spaces
+   
