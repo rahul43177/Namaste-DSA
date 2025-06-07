@@ -13,4 +13,7 @@
     - Trianlge
     - Numbered Triangle
     - Triangle with spaces
+    - Trianlge with numbers and 0 and 1 
+
+    
    
