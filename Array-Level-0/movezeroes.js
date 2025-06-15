@@ -18,17 +18,31 @@
  * - At the end, all zeros will be pushed toward the back of the array.
  */
 
-function moveZeroes(array) {
-    let placeHolder = 0;
-    for(let i = 0;i<array.length;i+=1) {
-        if(array[i] != 0) {
-            [array[i] , array[placeHolder]] = [array[placeHolder] , array[i]];
-            placeHolder++;
+// function moveZeroes(array) {
+//     let placeHolder = 0;
+//     for(let i = 0;i<array.length;i+=1) {
+//         if(array[i] != 0) {
+//             [array[i] , array[placeHolder]] = [array[placeHolder] , array[i]];
+//             placeHolder++;
+//         }
+//     }
+//     return array ; 
+// }
+
+function moveZeroes(arr) {
+    let x = 0;
+    for(let i = 0;i<arr.length;i+=1) {
+        if(arr[i] != 0) {
+            arr[x] = arr[i] ; 
+            x+=1 ;
         }
     }
-    return array ; 
-}
 
+    for(let i = x;i<arr.length;i+=1) {
+        arr[i] = 0;
+    }
+    return arr; 
+}
 // --- Test Cases for moveZeroes ---
 
 // --- Test Case 1: LeetCode Example --- 
