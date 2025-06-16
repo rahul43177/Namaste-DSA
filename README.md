@@ -1,19 +1,44 @@
 # Namaste-DSA
 
-## Warm Up 
-1. Programming 101 
-    - Basics Data types and variable declaration 
-    - Basics of JavaScript 
-    - Functions , Loops
-    - Data types 
-    - Basics of Array 
-    - Basics Questions on Array
-    - Loop within a Loop
-2. Star Patterns
-    - Trianlge
-    - Numbered Triangle
-    - Triangle with spaces
-    - Trianlge with numbers and 0 and 1 
+A collection of Data Structures and Algorithms (DSA) problems and solutions, focusing on JavaScript fundamentals, array manipulations, mathematical questions, and pattern printing.
 
-    
-   
+## Topics Covered
+
+### 1. Warm Up
+#### a. Concepts
+- **JavaScript Basics**: Data types, variable declaration, functions, if-else, while, loops
+- **Loop within a Loop**: Nested loop problems
+
+#### b. Maths Questions
+- Count Digits
+- Palindrome Number
+- Reverse Integer
+
+#### c. Simple Questions
+- Count Negative
+- Find Element
+- Find Largest
+- Find Second Largest
+- Find Smallest
+
+#### d. Star Patterns
+- 1/0 Continuous Triangle
+- 1/0 Number Triangle
+- 4x4 Star
+- Numbered Repeat Triangle
+- Number Triangle
+- Reverse Number Triangle
+- Reverse Triangle
+- Right Triangle
+- Triangle with Spaces
+
+### 2. Array-Level-0 (Leetcode Questions)
+- Best Time to Buy and Sell Stock
+- Max Consecutive Ones
+- Merge Two Sorted Arrays
+- Missing Number
+- Move Zeroes
+- Remove Duplicates
+- Remove Element
+- Reverse String
+- Single Number 
