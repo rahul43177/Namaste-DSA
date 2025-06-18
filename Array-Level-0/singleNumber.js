@@ -25,7 +25,7 @@ Each element in the array appears twice except for one element which appears onl
  * 
  * Two methods 
  * 1. Hash Map 
- * 2. XOR
+ * 2. XOR Operator
  */
 
 //1. Using Hash Map -> SC = O(n)
