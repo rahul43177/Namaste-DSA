@@ -52,3 +52,5 @@ A collection of Data Structures and Algorithms (DSA) problems and solutions, foc
 - **Common Mistakes**: Infinite recursion, missing base case, and stack overflow.
 #### b. Simple questions for basics 
 - Sum of first N natural numbers 
+- Sum of all the elements of an array
+- Sum of all odd elements / numbers of an array
