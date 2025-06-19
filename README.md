@@ -50,3 +50,5 @@ A collection of Data Structures and Algorithms (DSA) problems and solutions, foc
 - **How Recursion Works**: Call stack, function calls, and tracing recursive functions.
 - **When to Use Recursion**: Identifying problems suitable for recursive solutions.
 - **Common Mistakes**: Infinite recursion, missing base case, and stack overflow.
+#### b. Simple questions for basics 
+- Sum of first N natural numbers 
