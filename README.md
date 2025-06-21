@@ -54,3 +54,4 @@ A collection of Data Structures and Algorithms (DSA) problems and solutions, foc
 - Sum of first N natural numbers 
 - Sum of all the elements of an array
 - Sum of all odd elements / numbers of an array
+- Fibonacci Number
