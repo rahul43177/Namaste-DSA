@@ -69,3 +69,10 @@ A collection of Data Structures and Algorithms (DSA) problems and solutions, foc
   - LeetCode-based implementation with detailed documentation
   - Complete dry-run analysis with step-by-step walkthrough
   - 8 comprehensive test cases covering all scenarios
+
+#### b. Sort Algorithms
+- **Bubble Sort**: Simple comparison-based sorting algorithm
+  - Time Complexity: O(n²), Space Complexity: O(1)
+  - Detailed explanation of loop conditions and algorithm logic
+  - Step-by-step walkthrough with example array [5, 2, 4, 1, 3]
+  - Complete documentation of how elements "bubble up" to their positions
