@@ -55,3 +55,17 @@ A collection of Data Structures and Algorithms (DSA) problems and solutions, foc
 - Sum of all the elements of an array
 - Sum of all odd elements / numbers of an array
 - Fibonacci Number
+
+### 4. Searching and Sorting-Level-0
+
+#### a. Search Algorithms
+- **Linear Search**: Simple sequential search through array elements
+  - Time Complexity: O(n), Space Complexity: O(1)
+  - Handles different data types (numbers, strings, booleans)
+  - Comprehensive test cases with edge cases
+
+- **Binary Search**: Efficient search in sorted arrays using divide-and-conquer
+  - Time Complexity: O(log n), Space Complexity: O(1)
+  - LeetCode-based implementation with detailed documentation
+  - Complete dry-run analysis with step-by-step walkthrough
+  - 8 comprehensive test cases covering all scenarios
