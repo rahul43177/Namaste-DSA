@@ -1,10 +1,16 @@
 function bubbleSort(arr) {
     let n = arr.length; 
     for(let i = 0;i<n-1;i+=1) {
+        let swapped = false; // Flag to track if any swapping occurred in this pass
         for(let j = 0;j<n-1-i;j+=1) {
             if(arr[j] > arr[j+1]) {
                 [arr[j] , arr[j+1]] = [arr[j+1] , arr[j]] //swapping in es6 , otherwise we can use temp variable method
+                swapped = true; // Set flag to true when swap occurs
             }
+        }
+        // If no swapping occurred in this pass, array is already sorted
+        if(!swapped) {
+            break; // Exit early - optimization for already sorted arrays
         }
     }
     return arr; 
@@ -42,8 +48,17 @@ Pass 2 (i=1): [2,4,1,3,5] → [2,4,1,3,5] → [2,1,4,3,5] → [2,1,3,4,5]
 Pass 3 (i=2): [2,1,3,4,5] → [1,2,3,4,5] → [1,2,3,4,5]
 Pass 4 (i=3): [1,2,3,4,5] → [1,2,3,4,5]
 
-Time Complexity: O(n²) - nested loops
+Time Complexity: 
+- Worst Case: O(n²) - when array is reverse sorted
+- Best Case: O(n) - when array is already sorted (with optimization)
+- Average Case: O(n²)
 Space Complexity: O(1) - sorting in place
+
+OPTIMIZATION ADDED:
+- Uses a 'swapped' flag to detect if any swaps occurred in a pass
+- If no swaps happen, the array is already sorted and we can exit early
+- This improves best-case time complexity from O(n²) to O(n)
+- Particularly useful for nearly sorted or already sorted arrays
 */
 
 let arr = [5, 2, 4, 1, 3]
