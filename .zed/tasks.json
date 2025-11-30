@@ -1,0 +1,16 @@
+[
+  {
+    "label": "Build & Run C++",
+    "command": "clang++ -std=c++17 -g \"$ZED_FILE\" -o \"$ZED_WORKTREE_ROOT/.zed/bin/$ZED_STEM\" && \"$ZED_WORKTREE_ROOT/.zed/bin/$ZED_STEM\"",
+    "allow_concurrent_runs": true,
+    "cwd": "$ZED_WORKTREE_ROOT",
+    "reveal": "always"
+  },
+  {
+    "label": "Run JS (Node)",
+    "command": "node \"$ZED_FILE\"",
+    "allow_concurrent_runs": true,
+    "cwd": "$ZED_WORKTREE_ROOT",
+    "reveal": "always"
+  }
+]

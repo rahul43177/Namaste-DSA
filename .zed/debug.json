@@ -1,0 +1,18 @@
+[
+  {
+    "label": "Debug C++ (current file)",
+    "adapter": "CodeLLDB",
+    "request": "launch",
+    "program": "$ZED_WORKTREE_ROOT/.zed/bin/$ZED_STEM",
+    "cwd": "$ZED_WORKTREE_ROOT",
+    "build": "Build & Run C++"
+  },
+  {
+    "label": "Debug Node.js (current file)",
+    "adapter": "JavaScript",
+    "type": "node",
+    "request": "launch",
+    "program": "$ZED_FILE",
+    "cwd": "$ZED_WORKTREE_ROOT"
+  }
+]
