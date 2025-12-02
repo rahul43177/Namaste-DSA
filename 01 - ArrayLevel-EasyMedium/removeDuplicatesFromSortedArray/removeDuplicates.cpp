@@ -24,8 +24,5 @@ int main() {
 
   cout << "The unique number in the array are " << unique << endl; 
   return 0 ;
-  for(auto val : arr) {
-    cout << "the current value " << val << endl ;
-  }
 }
 
