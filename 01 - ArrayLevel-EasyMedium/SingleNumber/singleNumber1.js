@@ -17,19 +17,12 @@ Example 3:
 
 function singleNumber(arr) {
   let map = new Map();
-  //setting it into the frequency counter
-  for (let val of arr) {
-    map.set(val, (map.get(val) || 0) + 1);
-  }
+  
 
-  //fetching the value which has one frequency
-  for (let [key, value] of map) {
-    if (value == 1) {
-      return key;
-    }
-  }
-  return -1;
+
 }
+
+
 
 let array = [1, 1, 12, 12, 3, 3, 5, 4, 5, 4, 15]; //15 is coming once
 console.log(singleNumber(array));
