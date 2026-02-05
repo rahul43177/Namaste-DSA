@@ -1,17 +1,17 @@
-function numSubarrayProductLessThanK(nums , k) {
+function subArrayProductLessThanK(nums , k) {
     let left = 0;
     let product = 1; 
-    let count = 0; 
+    let count = 0;
 
-    for(let right = 0;right<nums.length;right+=1){
-        product = product * nums[right]; 
-     
-        while(product >= k) {
-            product = product / nums[left]; 
-            left++; 
+    for(let right = 0;right<nums.length;right+=1) {
+        product += nums[right]; 
+
+        while(product>=nums[left]) {
+            product /= nums[left]; 
+            left++;
         }
 
-        count = count + (right-left+1); 
+        count += (right-left+1); 
     }
     return count ; 
 }
